@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7BE4841E-9207-7E45-8CD4-624DCF8A2339}") = "TotalWorldDomination", "Assembly-CSharp.csproj", "{CAF34342-6802-E3CB-50D0-228476F240FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF34342-6802-E3CB-50D0-228476F240FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF34342-6802-E3CB-50D0-228476F240FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF34342-6802-E3CB-50D0-228476F240FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF34342-6802-E3CB-50D0-228476F240FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AffectEditor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/AffectEditor.cs" Line="86" Column="3" NotebookId="1" />
+    </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="35" Y="53" Width="1745" Height="1007">
+        <Files>
+          <File FileName="Assets/Scripts/CharacterModel.cs" Line="27" Column="17" />
+          <File FileName="Assets/Scripts/Affects.cs" Line="51" Column="2" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Assets/Scripts/AffectEditor.cs" line="212" column="1" />
+      <RunToCursorBreakpoint file="/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Assets/Scripts/Affects.cs" line="23" column="5" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,17 @@
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/UnityEngine.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/UnityEditor.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Mono.Cecil.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Unity.DataContract.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/obj/Debug/Assembly-CSharp.dll
+/Users/uc-ci3/Documents/GCCAI/TotalWorldDomination/obj/Debug/Assembly-CSharp.dll.mdb

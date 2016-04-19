@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEditor;
 
 
-[CustomEditor (typeof(Affects))]
+[CustomEditor (typeof(AffectManager))]
 public class AffectEditor : Editor
 {
 

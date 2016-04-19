@@ -48,7 +48,6 @@
      <Compile Include="Assets\Scripts\Affect.cs" />
      <Compile Include="Assets\Scripts\AffectEditor.cs" />
      <Compile Include="Assets\Scripts\AffectManager.cs" />
-     <Compile Include="Assets\Scripts\Affects.cs" />
      <Compile Include="Assets\Scripts\CharacterModel.cs" />
      <Compile Include="Assets\Scripts\Lunchroom.cs" />
  <Reference Include="UnityEngine.UI">

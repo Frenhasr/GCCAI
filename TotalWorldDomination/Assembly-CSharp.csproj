@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Affect.cs" />
      <Compile Include="Assets\Scripts\AffectEditor.cs" />
      <Compile Include="Assets\Scripts\AffectManager.cs" />
      <Compile Include="Assets\Scripts\Affects.cs" />

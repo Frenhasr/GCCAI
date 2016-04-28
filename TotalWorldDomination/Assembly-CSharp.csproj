@@ -50,6 +50,10 @@
      <Compile Include="Assets\Scripts\AffectManager.cs" />
      <Compile Include="Assets\Scripts\CharacterModel.cs" />
      <Compile Include="Assets\Scripts\Lunchroom.cs" />
+     <Compile Include="Assets\Scripts\Need.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <None Include="Assets\TSF\Shaders\TSFOutline.shader" />
+     <None Include="Assets\TSF\Shaders\TSF.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -53,5 +53,11 @@ public class Affect
 
 	}
 
+	public string returnName ()
+	{
+
+		return name; 
+	}
+
 
 }

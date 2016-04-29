@@ -1,22 +1,37 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+[System.Serializable]
 public class Need
 {
 
 	private string name;
-	private float lowerBound, upperBound, neutral, currentVal, changeRate;
+
+	[HideInInspector]
+	public float lowerBound, upperBound, neutral;
+
+	[Range (0.0f, 1.0f)]
+	public float currentVal;
 
 
-	public Need (string name, float lowerBound, float upperBound, float neutral, float currentVal, float changeRate)
+	public float changeRate;
+
+	void Start ()
+	{
+
+		//currentVal = Mathf.Abs (currentVal);
+	}
+
+	public Need (string name, float currentVal, float changeRate)
 	{
 
 		this.name = name;
-		this.lowerBound = lowerBound;
-		this.upperBound = upperBound;
-		this.neutral = neutral;
+		this.lowerBound = 0;
+		this.upperBound = 1;
+		this.neutral = .5f;
 		this.currentVal = currentVal;
-		this.changeRate = changeRate;
+		this.changeRate = Mathf.Abs (changeRate / 1000);
 
 	}
 
@@ -48,11 +63,7 @@ public class Need
 		currentVal += v;
 	}
 
-	private float ChangeOvertime ()
-	{
 
-		return Mathf.Lerp (upperBound, lowerBound, Time.time * changeRate);
-	}
 
 	public string returnName ()
 	{
@@ -61,10 +72,6 @@ public class Need
 	}
 
 
-	void Update ()
-	{
-		currentVal = ChangeOvertime ();
 
-	}
 		
 }

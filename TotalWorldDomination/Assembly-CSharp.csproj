@@ -48,10 +48,12 @@
      <Compile Include="Assets\Scripts\Affect.cs" />
      <Compile Include="Assets\Scripts\AffectEditor.cs" />
      <Compile Include="Assets\Scripts\AffectManager.cs" />
+     <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\CharacterModel.cs" />
      <Compile Include="Assets\Scripts\Lunchroom.cs" />
      <Compile Include="Assets\Scripts\Need.cs" />
-     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\TRAIT.cs" />
+     <Compile Include="Assets\Scripts\isTrait.cs" />
      <None Include="Assets\TSF\Shaders\TSFOutline.shader" />
      <None Include="Assets\TSF\Shaders\TSF.shader" />
  <Reference Include="UnityEngine.UI">

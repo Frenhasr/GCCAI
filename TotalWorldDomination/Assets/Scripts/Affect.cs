@@ -1,19 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class Affect
+[System.Serializable]
+public class Affect: IComparable<Affect>
 {
 
 	private string name;
-	private float lowerBound, upperBound, neutral, currentVal;
 
-	public  Affect (string name, float lowerBound, float upperBound, float neutral, float currentVal)
+	[HideInInspector]
+	public float lowerBound, upperBound, neutral;
+
+	[Range (-1.0f, 1.0f)]
+	public float currentVal;
+
+	public  Affect (string name, float currentVal)
 	{
 
 		this.name = name;
-		this.lowerBound = lowerBound;
-		this.upperBound = upperBound;
-		this.neutral = neutral;
+		this.lowerBound = 0;
+		this.upperBound = 1;
+		this.neutral = .5f;
 		this.currentVal = currentVal;
 
 	}
@@ -60,4 +67,20 @@ public class Affect
 	}
 
 
+	#region IComparable implementation
+
+	public int CompareTo (Affect other)
+	{
+		if (other == null) {
+			return 1;
+		} else if (this.currentVal > other.currentVal) {
+			return 1;
+		} else {
+			return 0;
+		}
+
+			
+	}
+
+	#endregion
 }

@@ -1,9 +1,15 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AffectManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/isTrait.cs">
     <Files>
-      <File FileName="Assets/Scripts/AffectEditor.cs" Line="6" Column="36" />
-      <File FileName="Assets/Scripts/AffectManager.cs" Line="164" Column="32" />
+      <File FileName="Assets/Scripts/CharacterModel.cs" Line="35" Column="18" />
+      <File FileName="Assets/Scripts/Affect.cs" Line="80" Column="4" />
+      <File FileName="Assets/Scripts/AffectEditor.cs" Line="40" Column="1" />
+      <File FileName="Assets/Scripts/AffectManager.cs" Line="43" Column="4" />
+      <File FileName="Assets/Scripts/TRAIT.cs" Line="19" Column="2" />
+      <File FileName="Assets/Scripts/Character.cs" Line="182" Column="23" NotebookId="1" />
+      <File FileName="Assets/Scripts/Need.cs" Line="34" Column="47" NotebookId="1" />
+      <File FileName="Assets/Scripts/isTrait.cs" Line="29" Column="3" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
